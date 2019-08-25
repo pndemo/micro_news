@@ -22,4 +22,6 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: micro_news_production
+  username: micro_news
+  password: <%= ENV['MICRO_NEWS_DATABASE_PASSWORD'] %>
