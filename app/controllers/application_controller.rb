@@ -1,7 +1,5 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
-  def welcome
-    render html: 'Hello, welcome to Micro news!'
-  end
+  include SessionsHelper
 end
