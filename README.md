@@ -30,3 +30,7 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
+
+## Demo app
+
+The demo app of the Micro news app has been hosted on Heroku and can be found at https://micro-news-app.herokuapp.com/.
